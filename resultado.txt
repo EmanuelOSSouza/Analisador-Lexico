@@ -1,0 +1,43 @@
+﻿
+Palavra	Digite		nao reconhecida
+Palavra	número		nao reconhecida
+Palavra	O		nao reconhecida
+Palavra	é		nao reconhecida
+Palavra	número		nao reconhecida
+Palavra	O		nao reconhecida
+Palavra	NÃO		nao reconhecida
+Palavra	é		nao reconhecida
+Palavra	número		nao reconhecida
+ O arquivo  ArquivoFonte1.mln contem erros 
+
+Palavra	Xv		nao reconhecida
+Palavra	Yv		nao reconhecida
+Palavra	CALCULO		nao reconhecida
+Palavra	DE		nao reconhecida
+Palavra	EQUACAO		nao reconhecida
+Palavra	DO		nao reconhecida
+Palavra	SEGUNDO		nao reconhecida
+Palavra	GRAU		nao reconhecida
+Palavra	Informe		nao reconhecida
+Palavra	A		nao reconhecida
+Palavra	Informe		nao reconhecida
+Palavra	B		nao reconhecida
+Palavra	Informe		nao reconhecida
+Palavra	C		nao reconhecida
+Palavra	Delta		nao reconhecida
+Palavra	Delta		nao reconhecida
+Palavra	Negativo		nao reconhecida
+Palavra	Delta		nao reconhecida
+Palavra	B		nao reconhecida
+Palavra	B		nao reconhecida
+Palavra	O		nao reconhecida
+Palavra	Xv		nao reconhecida
+Palavra	\		nao reconhecida
+Palavra	Yv		nao reconhecida
+Palavra	\		nao reconhecida
+Palavra	O		nao reconhecida
+Palavra	Xv		nao reconhecida
+Palavra	Yv		nao reconhecida
+Palavra	FIM		nao reconhecida
+Falta fechamento de codigo 
+ O arquivo  ArquivoFonte2.mln contem erros 
