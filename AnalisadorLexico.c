@@ -1,15 +1,15 @@
 /*
  * ANALISADOR LEXICO
  * Data: 04/12/2019
- * Autor: Emanuel Souza (https://github.com/EmanuelOSSouza/Learning)
- * MatÈria: Teoria da computaÁ„o e compiladores
- * DescriÁ„o: Criar um programa em ìCî ou em ìC++î, que ser· um analisador lÈxico, para a linguagem chamada ìMinha Linguagem Normalî,
- * este analisador deve ser construÌdo com algumas das tÈcnicas vistas em laboratÛrio, isso inclui usar AFD, M·quina de Turing, AFD de
- * Pilha com M·quina de Turing.
- * TÈcnica utilizada:  AFD (Automato Finito Deterministico), para entrada de palavras. Para verificaÁ„o lexica foi feito uma fila
- * din‚mica, com o objetivo de armazenar as palavras que possuem o alfabeto v·lido.
- * Sendo esperado na saida, a exibiÁ„o das palavras que possuem o alfabeto v·lido, geraÁ„o do arquivo "resultado.txt" e a tabela de
- * palavras v·lidas e seu tipo, por exemplo: Numero, operador aritmetico, operador de fechamento e operador relacionais.
+ * Autor: Emanuel Souza (https://github.com/EmanuelOSSouza)
+ * Mat√©ria: Teoria da computa√ß√£o e compiladores
+ * Descri√ß√£o: Criar um programa em ‚ÄúC‚Äù ou em ‚ÄúC++‚Äù, que ser√° um analisador l√©xico, para a linguagem chamada ‚ÄúMinha Linguagem Normal‚Äù,
+ * este analisador deve ser constru√≠do com algumas das t√©cnicas vistas em laborat√≥rio, isso inclui usar AFD, M√°quina de Turing, AFD de
+ * Pilha com M√°quina de Turing.
+ * T√©cnica utilizada:  AFD (Automato Finito Deterministico), para entrada de palavras. Para verifica√ß√£o lexica foi feito uma fila
+ * din√¢mica, com o objetivo de armazenar as palavras que possuem o alfabeto v√°lido.
+ * Sendo esperado na saida, a exibi√ß√£o das palavras que possuem o alfabeto v√°lido, gera√ß√£o do arquivo "resultado.txt" e a tabela de
+ * palavras v√°lidas e seu tipo, por exemplo: Numero, operador aritmetico, operador de fechamento e operador relacionais.
 */
 
 #include <windows.h>
@@ -148,7 +148,7 @@ void inicio(FILA *f){
                 printf("\nOperador Relacional: %s ",end->reg.palavra);
             } else if (strcmp (end->reg.palavra, ">") == 0){         //Operador relacional >
                 printf("\nOperador Relacional: %s ",end->reg.palavra);
-            } else if (strcmp (end->reg.palavra, "=") == 0){         //Operador relacional ou atribuiÁ„o =
+            } else if (strcmp (end->reg.palavra, "=") == 0){         //Operador relacional ou atribui√ß√£o =
                 printf("\nOperador Relacional: %s ",end->reg.palavra);
             } else if (strcmp (end->reg.palavra, "+") == 0){         //Operador aritimetico +
                 printf("\nOperador Aritimetico: %s ",end->reg.palavra);
@@ -347,7 +347,7 @@ int verificaLexema(char *caractere, FILA *f, int countCaracter){
                 salvarCodigo(caractere,f,countCaracter);
                 strcpy(caractere,"");
                 printf("\nletra: %s - palavra: %s",caractere,palavra);
-            } else if (strcmp (caractere, "=") == 0){         //Operador relacional ou atribuiÁ„o =
+            } else if (strcmp (caractere, "=") == 0){         //Operador relacional ou atribui√ß√£o =
                 verificaCadeia(palavra,caractere,countCaracter,countErroCaracter,f);
                 salvarCodigo(caractere,f,countCaracter);
                 printf("\nletra: %s - palavra: %s",caractere,palavra);
@@ -389,7 +389,7 @@ int verificaLexema(char *caractere, FILA *f, int countCaracter){
                 verificaCadeia(palavra,caractere,countCaracter,countErroCaracter,f);
                 strcpy(caractere,"");
                 printf("\nletra: %s - palavra: %s",caractere,palavra);
-            } else if (strcmp (caractere, " ") == 0 || strcmp (caractere, "\n") == 0 || strcmp (caractere, "\0") == 0){         //espaÁo
+            } else if (strcmp (caractere, " ") == 0 || strcmp (caractere, "\n") == 0 || strcmp (caractere, "\0") == 0){         //espa√ßo
                 countLinha++;
                 if(strcmp (palavra, " ") == 0 || strcmp (palavra, "\n") == 0 || strcmp (palavra, "\0") == 0){
                     printf("\nEspaco vazio: [%s]",palavra);
