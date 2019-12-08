@@ -1,5 +1,4 @@
-# Analisador-Lexico
-## ANALISADOR LEXICO
+# ANALISADOR LEXICO
 ### Data: 04/12/2019
 ### Autor: [Emanuel Souza] (https://github.com/EmanuelOSSouza/Learning)
 ### Matéria: Teoria da computação e compiladores
