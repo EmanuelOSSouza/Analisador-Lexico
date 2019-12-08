@@ -10,16 +10,14 @@ que são os dois programas escrito na linguagem MLN (texto livre de marcações)
 Após o analisador ler o arquivo ele deve gerar como saída um arquivo chamado “resultado.txt” que para cada arquivo fonte lido deve
 possuir um arquivo de resultado correspondente, contendo a(s) mensagen(s) como descrito abaixo:
 
-*Para validações corretas:
+#### Para validações corretas:
  
- Arquivo fonte: ArquivoFonte1.mln analisado corretamente.
+ > Arquivo fonte: ArquivoFonte1.mln analisado corretamente.
 
-*Para validações inconsistentes ou erradas:
- Arquivo fonte: ArquivoFonte1.mln contendo erro(s)
- 
- Palavra XPTO não reconhecida
- 
- Falta de fechamento de código 
+#### Para validações inconsistentes ou erradas:
+> Arquivo fonte: ArquivoFonte1.mln contendo erro(s)
+> Palavra XPTO não reconhecida
+> Falta de fechamento de código 
 
 ### Técnica utilizada:
 AFD (Automato Finito Deterministico), para entrada de palavras. Para verificação lexica foi feito uma fila
