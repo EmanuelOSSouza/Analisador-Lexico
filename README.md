@@ -1,6 +1,6 @@
 # ANALISADOR LEXICO
 ### Data: 04/12/2019
-### Autor: [Emanuel Souza] (https://github.com/EmanuelOSSouza/Learning)
+### Autor: [Emanuel Souza] (https://github.com/EmanuelOSSouza)
 ### Matéria: Teoria da computação e compiladores
 ### Descrição: 
 Criar um programa em “C” ou em “C++”, que será um analisador léxico, para a linguagem chamada “Minha Linguagem Normal”, este analisador deve ser construído com algumas das técnicas vistas em laboratório, isso inclui usar AFD, Máquina de Turing, AFD 
