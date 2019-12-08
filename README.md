@@ -9,8 +9,10 @@ Este analisador deve ser capaz de ler um arquivo fonte da nossa linguagem MLN, e
 que são os dois programas escrito na linguagem MLN (texto livre de marcações), estes serão fornecidos pelo professor.
 Após o analisador ler o arquivo ele deve gerar como saída um arquivo chamado “resultado.txt” que para cada arquivo fonte lido deve
 possuir um arquivo de resultado correspondente, contendo a(s) mensagen(s) como descrito abaixo:
+
 *Para validações corretas:
  Arquivo fonte: ArquivoFonte1.mln analisado corretamente.
+
 *Para validações inconsistentes ou erradas:
  Arquivo fonte: ArquivoFonte1.mln contendo erro(s)
  Palavra XPTO não reconhecida
