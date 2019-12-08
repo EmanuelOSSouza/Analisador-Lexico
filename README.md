@@ -3,8 +3,8 @@
 ### Data: 04/12/2019
 ### Autor: [Emanuel Souza] (https://github.com/EmanuelOSSouza/Learning)
 ### Matéria: Teoria da computação e compiladores
-### Descrição: Criar um programa em “C” ou em “C++”, que será um analisador léxico, para a linguagem chamada “Minha Linguagem Normal”,
-este analisador deve ser construído com algumas das técnicas vistas em laboratório, isso inclui usar AFD, Máquina de Turing, AFD 
+### Descrição: 
+Criar um programa em “C” ou em “C++”, que será um analisador léxico, para a linguagem chamada “Minha Linguagem Normal”, este analisador deve ser construído com algumas das técnicas vistas em laboratório, isso inclui usar AFD, Máquina de Turing, AFD 
 de Pilha com Máquina de Turing.
 Este analisador deve ser capaz de ler um arquivo fonte da nossa linguagem MLN, exemplo “ArquivoFonte1.mln” e “ArquivoFonte2.mln”
 que são os dois programas escrito na linguagem MLN (texto livre de marcações), estes serão fornecidos pelo professor.
@@ -17,7 +17,8 @@ possuir um arquivo de resultado correspondente, contendo a(s) mensagen(s) como d
  Palavra XPTO não reconhecida
  Falta de fechamento de código 
 
-### Técnica utilizada:  AFD (Automato Finito Deterministico), para entrada de palavras. Para verificação lexica foi feito uma fila
+### Técnica utilizada:
+AFD (Automato Finito Deterministico), para entrada de palavras. Para verificação lexica foi feito uma fila
 dinâmica, com o objetivo de armazenar as palavras que possuem o alfabeto válido.
 Sendo esperado na saida, a exibição das palavras que possuem o alfabeto válido, geração do arquivo "resultado.txt" e a tabela de 
 palavras válidas e seu tipo, por exemplo: Numero, operador aritmetico, operador de fechamento e operador relacionais.
