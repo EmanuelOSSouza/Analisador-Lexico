@@ -11,11 +11,14 @@ Após o analisador ler o arquivo ele deve gerar como saída um arquivo chamado �
 possuir um arquivo de resultado correspondente, contendo a(s) mensagen(s) como descrito abaixo:
 
 *Para validações corretas:
+ 
  Arquivo fonte: ArquivoFonte1.mln analisado corretamente.
 
 *Para validações inconsistentes ou erradas:
  Arquivo fonte: ArquivoFonte1.mln contendo erro(s)
+ 
  Palavra XPTO não reconhecida
+ 
  Falta de fechamento de código 
 
 ### Técnica utilizada:
@@ -23,3 +26,7 @@ AFD (Automato Finito Deterministico), para entrada de palavras. Para verificaç�
 dinâmica, com o objetivo de armazenar as palavras que possuem o alfabeto válido.
 Sendo esperado na saida, a exibição das palavras que possuem o alfabeto válido, geração do arquivo "resultado.txt" e a tabela de 
 palavras válidas e seu tipo, por exemplo: Numero, operador aritmetico, operador de fechamento e operador relacionais.
+
+### Utilização: 
+Ao iniciar a aplicação deve ser informado um arquivo existente e válido, com por exemplo: “ArquivoFonte1.mln” e “ArquivoFonte2.mln”.
+Logo em seguida o analisador léxico vai exibir as informações descritas acima e gerar o arquivo de saida: "resultado.txt".
