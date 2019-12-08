@@ -16,7 +16,9 @@ possuir um arquivo de resultado correspondente, contendo a(s) mensagen(s) como d
 
 #### Para validações inconsistentes ou erradas:
 > Arquivo fonte: ArquivoFonte1.mln contendo erro(s)
+
 > Palavra XPTO não reconhecida
+
 > Falta de fechamento de código 
 
 ### Técnica utilizada:
