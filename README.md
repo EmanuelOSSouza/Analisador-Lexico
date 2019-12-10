@@ -28,7 +28,7 @@ Sendo esperado na saida, a exibição das palavras que possuem o alfabeto válid
 palavras válidas e seu tipo, por exemplo: Numero, operador aritmetico, operador de fechamento e operador relacionais.
 
 ### Utilização: 
-Ao iniciar a aplicação deve ser informado um arquivo existente e válido (dentro da mesma pasta que contém o executável), com por exemplo: “ArquivoFonte1.mln” e “ArquivoFonte2.mln”.
+Ao iniciar a aplicação deve ser informado um arquivo existente e válido (dentro da mesma pasta que contém o executável), como por exemplo: “ArquivoFonte1.mln” e “ArquivoFonte2.mln”. 
 Logo em seguida o analisador léxico vai exibir as informações descritas acima e gerar o arquivo de saida: "resultado.txt".
 
 **OBS:** Programa projetado para funcionar no windows.
