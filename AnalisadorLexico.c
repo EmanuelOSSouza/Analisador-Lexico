@@ -1,7 +1,7 @@
 /*
  * ANALISADOR LEXICO
  * Data: 04/12/2019
- * Autor: Emanuel Souza (https://github.com/EmanuelOSSouza)
+ * Autor: Emanuel Souza (https://github.com/EmanuelOSSouza/Learning)
  * Matéria: Teoria da computação e compiladores
  * Descrição: Criar um programa em “C” ou em “C++”, que será um analisador léxico, para a linguagem chamada “Minha Linguagem Normal”,
  * este analisador deve ser construído com algumas das técnicas vistas em laboratório, isso inclui usar AFD, Máquina de Turing, AFD de
@@ -381,17 +381,25 @@ int verificaLexema(char *caractere, FILA *f, int countCaracter){
                 verificaCadeia(palavra,caractere,countCaracter,countErroCaracter,f);
                 strcpy(caractere,"");
                 printf("\nletra: %s - palavra: %s",caractere,palavra);
-            } else if (strcmp (caractere, ",") == 0){         // Dois pontos
+            } else if (strcmp (caractere, "[") == 0){         // Colchete [
                 verificaCadeia(palavra,caractere,countCaracter,countErroCaracter,f);
                 strcpy(caractere,"");
                 printf("\nletra: %s - palavra: %s",caractere,palavra);
-            } else if (strcmp (caractere, ";") == 0){         // Dois pontos
+            } else if (strcmp (caractere, "]") == 0){         // Colchete ]
+                verificaCadeia(palavra,caractere,countCaracter,countErroCaracter,f);
+                strcpy(caractere,"");
+                printf("\nletra: %s - palavra: %s",caractere,palavra);
+            } else if (strcmp (caractere, ",") == 0){         // Virgula
+                verificaCadeia(palavra,caractere,countCaracter,countErroCaracter,f);
+                strcpy(caractere,"");
+                printf("\nletra: %s - palavra: %s",caractere,palavra);
+            } else if (strcmp (caractere, ";") == 0){         // Ponto-e-virgula
                 verificaCadeia(palavra,caractere,countCaracter,countErroCaracter,f);
                 strcpy(caractere,"");
                 printf("\nletra: %s - palavra: %s",caractere,palavra);
             } else if (strcmp (caractere, " ") == 0 || strcmp (caractere, "\n") == 0 || strcmp (caractere, "\0") == 0){         //espaço
                 countLinha++;
-                if(strcmp (palavra, " ") == 0 || strcmp (palavra, "\n") == 0 || strcmp (palavra, "\0") == 0){
+                if(strcmp (palavra, " ") == 0 || strcmp (palavra, "\n") == 0 || strcmp (palavra, "\0") == 0 || strcmp (palavra, "  ") == 0){
                     printf("\nEspaco vazio: [%s]",palavra);
                     printf("\nErro: %d",countErroCaracter);
                 } else {
